@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  coredockerfoo.ui.web:
+    image: ${DOCKER_REGISTRY}coredockerfoouiweb
+    build:
+      context: .
+      dockerfile: CoreDockerFoo.UI.Web\Dockerfile
